@@ -1,0 +1,103 @@
+
+
+#person-head {
+  /*display: inline-block;*/
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: orange;
+  position: absolute;
+  transform: rotate(0deg);
+}
+#person-eye-container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 30px;
+}
+.person-eye{
+  width: 42px;
+  position: relative;
+}
+.person-eye-eyebrow {
+  background: black;
+  height: 10px;
+  border-radius: 10px;
+}
+.person-eye-eyeball {
+  background: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  position: absolute;
+  right: 7px;
+  top: 0px;
+}
+#person-nose {
+  position: absolute;
+  background: black;
+  top: 50%;
+  bottom: 50%;
+  right: -10px;
+  width: 10px;
+  height: 2px;
+}
+#person-center {
+  position: absolute;
+  background: black;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 2px;
+  height: 2px;
+}
+
+#adj {
+  display: inline-block;
+  /*background: orange;*/
+  height: 0px;
+  margin: 0px;
+  /* width: adj; */
+  width: 400px;
+}
+#opp {
+  /* opp = height + 1/2circHeight + 1/2circHeight; */
+  /* height: 100px; */
+  margin-bottom: -200px;
+  background: blue;
+}
+#other-person-head {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: firebrick;
+  
+}
+.person-mouth-container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /*
+  background: firebrick;
+  */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  height: 30px;
+}
+.mouth {
+  width: 40px;
+  height: 20px;
+  background-color: black;
+}
